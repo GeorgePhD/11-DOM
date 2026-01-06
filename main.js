@@ -26,9 +26,13 @@ title.addEventListener("click", () => {
 });
 
 
+const addText = document.querySelector("#agregarTexto");
+const textContainer = document.querySelector("#container");
+addText.addEventListener("click", () => {
 
+    textContainer.innerHTML = "<h2>Nuevo parrafo agregado usando JS</h2>";
 
-
+});
 
 
 
